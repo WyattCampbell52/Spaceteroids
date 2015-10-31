@@ -5,6 +5,8 @@
  */
 package spaceteroids;
 
+import environment.ApplicationStarter;
+
 /**
  *
  * @author kevinlawrence
@@ -15,7 +17,7 @@ public class Spaceteroids {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        ApplicationStarter.run("Spaceteroids!", new Space());//, Reso)
     }
     
 }
